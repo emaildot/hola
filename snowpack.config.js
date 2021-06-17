@@ -28,7 +28,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    baseUrl: process.env.NODE_ENV == 'test' ? '' : '/home',
+    baseUrl: process.env.NODE_ENV == 'test' ? '' : '/hola',
     metaUrlPath: '/dist',
   },
 };
