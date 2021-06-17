@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --color-black: #000;
+  --color-grey-40: #afafaf;
+  --color-grey-50: #8c8c8c;
+
+  --unit-1\4: 2px;
+  --unit-1\2: 4px;
+  --unit-1: 8px;
+  --unit-2: 16px;
+  --unit-3: 24px;
+  --unit-4: 32px;
+  --unit-5: 40px;
+  --unit-6: 48px;
+  --unit-7: 56px;
+  --unit-8: 64px;
+  --unit-9: 72px;
+  --unit-10: 80px;
+}
